@@ -1,0 +1,65 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+venv/
+env/
+
+# Sequencing data (too large)
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+
+# Kraken2/Bracken outputs (large, regenerable)
+*.kraken
+*.kreport
+*.bracken
+*.breport
+
+# Database files (too large)
+*.bt2
+*.bt2l
+*.k2d
+
+# Large output directories
+preprocessing/
+taxonomic_analysis/
+functional_analysis/
+
+# System files
+.DS_Store
+Thumbs.db
+*~
+
+# Sensitive data
+*.env
+*_credentials.*
+*_private.*
+config.sh
+
+# Large output files (regenerable)
+*.pdf
+*.png
+*.html
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Conda environments
+environment.yml.lock
